@@ -1,28 +1,32 @@
 name: C++ CI Build
 
+# Trigger this process every time you push code to the main branch
 on:
   push:
-    branches: ["main"]
-  pull_requests:
-    branches: ["main"]
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  builds:
+  build:
+    # Spin up a virtual Linux machine
     runs-on: ubuntu-latest
 
     steps:
-    
+    # Step 1: Download your repository code into the virtual machine
     - name: Checkout Code
       uses: actions/checkout@v3
 
-    - name:
+    # Step 2: Install the tools needed to compile computer vision C++ code
+    - name: Install Dependencies
       run: |
-        sudo apt update
+        sudo apt-get update
         sudo apt-get install -y cmake g++ build-essential libopencv-dev
 
+    # Step 3: Configure the build using CMake
     - name: Configure CMake
       run: cmake -B build -S .
 
-
+    # Step 4: Actually compile the code
     - name: Build C++ Project
       run: cmake --build build --config Release
