@@ -1,6 +1,6 @@
-echo "build/" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "*.onnx" >> .gitignore
-echo "*.engine" >> .gitignore
-echo "datasets/" >> .gitignore
-echo "runs/" >> .gitignore
+    echo "build/" >> .gitignore
+    echo ".DS_Store" >> .gitignore
+    echo "*.onnx" >> .gitignore
+    echo "*.engine" >> .gitignore
+    echo "datasets/" >> .gitignore
+    echo "runs/" >> .gitignore
