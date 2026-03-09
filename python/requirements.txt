@@ -1,0 +1,24 @@
+# --- Core AI (Platform Specific) ---
+# Installs standard torch for Linux/Windows, but ensures compatibility for Mac
+torch
+torchvision
+
+# --- Essential Vision Stack ---
+ultralytics       # The engine for YOLO11-OBB
+opencv-python      # For ArUco and Homography
+
+# --- Mac M3 Max Specific Utilities ---
+# Only installs these if the system is macOS
+coremltools; sys_platform == 'darwin'  # For Apple Silicon optimization
+
+# --- Jetson & Linux Specific Utilities ---
+# Only installs these if the system is Linux (like your Jetson Orin Nano)
+onnxruntime-gpu; sys_platform == 'linux'
+
+# --- Universal Math & Data ---
+numpy
+pyyaml
+tqdm
+onnx
+onnxsim
+depthai

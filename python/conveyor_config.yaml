@@ -1,0 +1,8 @@
+# Path to your dataset folder
+path: ./datasets/conveyor_objects 
+train: images/train
+val: images/val
+
+# Class names
+names:
+  0: industrial_part
