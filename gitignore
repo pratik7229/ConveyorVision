@@ -1,0 +1,4 @@
+echo "build/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "*.onnx" >> .gitignore
+echo "*.engine" >> .gitignore
