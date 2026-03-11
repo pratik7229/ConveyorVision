@@ -18,10 +18,6 @@ add_executable(Super_Vision
      main.cpp
      src/ImageLoader.cpp
      src/Application.cpp
-     src/EdgeDetector.cpp
-     src/GaussianBlur.cpp
-     src/ThresholdProcessor.cpp
-     src/MorphologicalFiltering.cpp
      src/CameraProcessor.cpp
      src/InferenceEngine.cpp
 )

@@ -932,8 +932,4 @@ CMakeFiles/Super_Vision.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /opt/homebrew/include/onnxruntime/onnxruntime_ep_c_api.h \
   /opt/homebrew/include/onnxruntime/onnxruntime_float16.h \
-  /opt/homebrew/include/onnxruntime/onnxruntime_cxx_inline.h \
-  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/EdgeDetector.hpp \
-  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/Blurring.hpp \
-  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/ThresholdProcessor.hpp \
-  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/morphoFilter.hpp
+  /opt/homebrew/include/onnxruntime/onnxruntime_cxx_inline.h

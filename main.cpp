@@ -1,9 +1,5 @@
 #include<iostream>
 #include "Application.hpp"
-#include "EdgeDetector.hpp"
-#include "Blurring.hpp"
-#include "ThresholdProcessor.hpp"
-#include "morphoFilter.hpp"
 #include <memory>
 
 

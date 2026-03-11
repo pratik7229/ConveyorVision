@@ -201,54 +201,6 @@ src/CameraProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.s
 .PHONY : src/CameraProcessor.cpp.s
 
-src/EdgeDetector.o: src/EdgeDetector.cpp.o
-.PHONY : src/EdgeDetector.o
-
-# target to build an object file
-src/EdgeDetector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o
-.PHONY : src/EdgeDetector.cpp.o
-
-src/EdgeDetector.i: src/EdgeDetector.cpp.i
-.PHONY : src/EdgeDetector.i
-
-# target to preprocess a source file
-src/EdgeDetector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.i
-.PHONY : src/EdgeDetector.cpp.i
-
-src/EdgeDetector.s: src/EdgeDetector.cpp.s
-.PHONY : src/EdgeDetector.s
-
-# target to generate assembly for a file
-src/EdgeDetector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.s
-.PHONY : src/EdgeDetector.cpp.s
-
-src/GaussianBlur.o: src/GaussianBlur.cpp.o
-.PHONY : src/GaussianBlur.o
-
-# target to build an object file
-src/GaussianBlur.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o
-.PHONY : src/GaussianBlur.cpp.o
-
-src/GaussianBlur.i: src/GaussianBlur.cpp.i
-.PHONY : src/GaussianBlur.i
-
-# target to preprocess a source file
-src/GaussianBlur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.i
-.PHONY : src/GaussianBlur.cpp.i
-
-src/GaussianBlur.s: src/GaussianBlur.cpp.s
-.PHONY : src/GaussianBlur.s
-
-# target to generate assembly for a file
-src/GaussianBlur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.s
-.PHONY : src/GaussianBlur.cpp.s
-
 src/ImageLoader.o: src/ImageLoader.cpp.o
 .PHONY : src/ImageLoader.o
 
@@ -297,54 +249,6 @@ src/InferenceEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.s
 .PHONY : src/InferenceEngine.cpp.s
 
-src/MorphologicalFiltering.o: src/MorphologicalFiltering.cpp.o
-.PHONY : src/MorphologicalFiltering.o
-
-# target to build an object file
-src/MorphologicalFiltering.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o
-.PHONY : src/MorphologicalFiltering.cpp.o
-
-src/MorphologicalFiltering.i: src/MorphologicalFiltering.cpp.i
-.PHONY : src/MorphologicalFiltering.i
-
-# target to preprocess a source file
-src/MorphologicalFiltering.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.i
-.PHONY : src/MorphologicalFiltering.cpp.i
-
-src/MorphologicalFiltering.s: src/MorphologicalFiltering.cpp.s
-.PHONY : src/MorphologicalFiltering.s
-
-# target to generate assembly for a file
-src/MorphologicalFiltering.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.s
-.PHONY : src/MorphologicalFiltering.cpp.s
-
-src/ThresholdProcessor.o: src/ThresholdProcessor.cpp.o
-.PHONY : src/ThresholdProcessor.o
-
-# target to build an object file
-src/ThresholdProcessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o
-.PHONY : src/ThresholdProcessor.cpp.o
-
-src/ThresholdProcessor.i: src/ThresholdProcessor.cpp.i
-.PHONY : src/ThresholdProcessor.i
-
-# target to preprocess a source file
-src/ThresholdProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.i
-.PHONY : src/ThresholdProcessor.cpp.i
-
-src/ThresholdProcessor.s: src/ThresholdProcessor.cpp.s
-.PHONY : src/ThresholdProcessor.s
-
-# target to generate assembly for a file
-src/ThresholdProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.s
-.PHONY : src/ThresholdProcessor.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -363,24 +267,12 @@ help:
 	@echo "... src/CameraProcessor.o"
 	@echo "... src/CameraProcessor.i"
 	@echo "... src/CameraProcessor.s"
-	@echo "... src/EdgeDetector.o"
-	@echo "... src/EdgeDetector.i"
-	@echo "... src/EdgeDetector.s"
-	@echo "... src/GaussianBlur.o"
-	@echo "... src/GaussianBlur.i"
-	@echo "... src/GaussianBlur.s"
 	@echo "... src/ImageLoader.o"
 	@echo "... src/ImageLoader.i"
 	@echo "... src/ImageLoader.s"
 	@echo "... src/InferenceEngine.o"
 	@echo "... src/InferenceEngine.i"
 	@echo "... src/InferenceEngine.s"
-	@echo "... src/MorphologicalFiltering.o"
-	@echo "... src/MorphologicalFiltering.i"
-	@echo "... src/MorphologicalFiltering.s"
-	@echo "... src/ThresholdProcessor.o"
-	@echo "... src/ThresholdProcessor.i"
-	@echo "... src/ThresholdProcessor.s"
 .PHONY : help
 
 

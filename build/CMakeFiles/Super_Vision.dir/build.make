@@ -114,66 +114,10 @@ CMakeFiles/Super_Vision.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Super_Vision.dir/src/Application.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/Application.cpp" -o CMakeFiles/Super_Vision.dir/src/Application.cpp.s
 
-CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
-CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/EdgeDetector.cpp
-CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o -MF CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/EdgeDetector.cpp"
-
-CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/EdgeDetector.cpp" > CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.i
-
-CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/EdgeDetector.cpp" -o CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.s
-
-CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
-CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/GaussianBlur.cpp
-CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o -MF CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/GaussianBlur.cpp"
-
-CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/GaussianBlur.cpp" > CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.i
-
-CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/GaussianBlur.cpp" -o CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.s
-
-CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
-CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/ThresholdProcessor.cpp
-CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o -MF CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/ThresholdProcessor.cpp"
-
-CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/ThresholdProcessor.cpp" > CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.i
-
-CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/ThresholdProcessor.cpp" -o CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.s
-
-CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
-CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/MorphologicalFiltering.cpp
-CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o -MF CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/MorphologicalFiltering.cpp"
-
-CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/MorphologicalFiltering.cpp" > CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.i
-
-CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/MorphologicalFiltering.cpp" -o CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.s
-
 CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
 CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/CameraProcessor.cpp
 CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o -MF CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/CameraProcessor.cpp"
 
 CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.i: cmake_force
@@ -187,7 +131,7 @@ CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.s: cmake_force
 CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o: CMakeFiles/Super_Vision.dir/flags.make
 CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o: /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/src/InferenceEngine.cpp
 CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o: CMakeFiles/Super_Vision.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o -MF CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o.d -o CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o -c "/Users/pratik/Documents/Finalized Projects/ConveyorVision/src/InferenceEngine.cpp"
 
 CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.i: cmake_force
@@ -203,10 +147,6 @@ Super_Vision_OBJECTS = \
 "CMakeFiles/Super_Vision.dir/main.cpp.o" \
 "CMakeFiles/Super_Vision.dir/src/ImageLoader.cpp.o" \
 "CMakeFiles/Super_Vision.dir/src/Application.cpp.o" \
-"CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o" \
-"CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o" \
-"CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o" \
-"CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o" \
 "CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o" \
 "CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o"
 
@@ -216,10 +156,6 @@ Super_Vision_EXTERNAL_OBJECTS =
 Super_Vision: CMakeFiles/Super_Vision.dir/main.cpp.o
 Super_Vision: CMakeFiles/Super_Vision.dir/src/ImageLoader.cpp.o
 Super_Vision: CMakeFiles/Super_Vision.dir/src/Application.cpp.o
-Super_Vision: CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o
-Super_Vision: CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o
-Super_Vision: CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o
-Super_Vision: CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o
 Super_Vision: CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o
 Super_Vision: CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o
 Super_Vision: CMakeFiles/Super_Vision.dir/build.make
@@ -280,7 +216,7 @@ Super_Vision: /opt/homebrew/lib/libopencv_photo.4.13.0.dylib
 Super_Vision: /opt/homebrew/lib/libopencv_imgproc.4.13.0.dylib
 Super_Vision: /opt/homebrew/lib/libopencv_core.4.13.0.dylib
 Super_Vision: CMakeFiles/Super_Vision.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Super_Vision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Super_Vision"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Super_Vision.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
