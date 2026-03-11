@@ -4,26 +4,33 @@ project(Super_Vision)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# 1. Find OpenCV (Works on both Mac and Linux automatically)
 find_package(OpenCV REQUIRED)
 
-include_directories(${ONNXRUNTIME_ROOT_DIR}/include)
-if(NOT DEFINED ONNXRUNTIME_ROOT_DIR)
-    message(FATAL_ERROR "ONNXRUNTIME_ROOT_DIR is not set. Use -DONNXRUNTIME_ROOT_DIR=/path/to/ort")
+# 2. Handle ONNX Runtime Paths (Conditional Logic)
+if(DEFINED ENV{ONNXRUNTIME_ROOT})
+    # This block executes on GitHub Actions (Linux)
+    set(ONNX_INCLUDE_DIR "$ENV{ONNXRUNTIME_ROOT}/include")
+    set(ONNX_LIB_DIR "$ENV{ONNXRUNTIME_ROOT}/lib")
+    message(STATUS "CI detected: Using ONNX at ${ONNX_INCLUDE_DIR}")
+else()
+    # This block executes on your Mac
+    set(ONNX_INCLUDE_DIR "/opt/homebrew/include")
+    set(ONNX_LIB_DIR "/opt/homebrew/lib")
+    message(STATUS "Local Mac detected: Using Homebrew paths")
 endif()
 
-
+# 3. Set Include Directories
 include_directories(
     ${OpenCV_INCLUDE_DIRS}
-    #/opt/homebrew/include
+    ${ONNX_INCLUDE_DIR}
     ${CMAKE_SOURCE_DIR}/include
 )
 
-find_library(ONNXRUNTIME_LIB onnxruntime
-    PATHS ${ONNXRUNTIME_ROOT_DIR}/lib
-    NO_DEFAULT_PATH)
+# 4. Set Link Directories
+link_directories(${ONNX_LIB_DIR})
 
-#link_directories(/opt/homebrew/lib)
-
+# 5. Define Executable
 add_executable(Super_Vision
      main.cpp
      src/ImageLoader.cpp
@@ -32,8 +39,8 @@ add_executable(Super_Vision
      src/InferenceEngine.cpp
 )
 
-target_link_libraries(Super_Vision PRIVATE ${ONNXRUNTIME_LIB} opencv_core opencv_imgproc opencv_highgui)
-# target_link_libraries(Super_Vision
-#     ${OpenCV_LIBS}
-#     onnxruntime
-# )
+# 6. Link Libraries
+target_link_libraries(Super_Vision
+    ${OpenCV_LIBS}
+    onnxruntime
+)
