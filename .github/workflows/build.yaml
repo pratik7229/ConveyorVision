@@ -1,6 +1,5 @@
 name: C++ CI Build
 
-# Trigger this process every time you push code to the main branch
 on:
   push:
     branches: [ "main" ]
@@ -9,29 +8,31 @@ on:
 
 jobs:
   build:
-    # Spin up a virtual Linux machine
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Download your repository code into the virtual machine
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4 # Updated to v4 for better performance
 
-    # Step 2: Install the tools needed to compile computer vision C++ code
     - name: Install Dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y cmake g++ build-essential libopencv-dev
 
     - name: Install ONNX Runtime
-        run: |
-          ORT_VERSION=1.17.1
-          curl -L -O https://github.com/microsoft/onnxruntime/releases/download/v${ORT_VERSION}/onnxruntime-linux-x64-${ORT_VERSION}.tgz
-          tar -xzf onnxruntime-linux-x64-${ORT_VERSION}.tgz
-          echo "ONNXRUNTIME_ROOT=${{ github.workspace }}/onnxruntime-linux-x64-${ORT_VERSION}" >> $GITHUB_ENV
+      run: |
+        ORT_VERSION=1.17.1
+        # Download and extract ONNX Runtime
+        curl -L -O https://github.com/microsoft/onnxruntime/releases/download/v${ORT_VERSION}/onnxruntime-linux-x64-${ORT_VERSION}.tgz
+        tar -xzf onnxruntime-linux-x64-${ORT_VERSION}.tgz
+        # Set environment variable for subsequent steps
+        echo "ONNXRUNTIME_ROOT=${{ github.workspace }}/onnxruntime-linux-x64-${ORT_VERSION}" >> $GITHUB_ENV
 
     - name: Configure and Build
-        run: |
-          mkdir build && cd build
-          cmake .. -DONNXRUNTIME_ROOT_DIR=${{ env.ONNXRUNTIME_ROOT }}
-          make -j$(nproc)
+      run: |
+        # Ensure we start fresh
+        rm -rf build
+        mkdir build && cd build
+        # Pass the ONNX path to CMake
+        cmake .. -DONNXRUNTIME_ROOT_DIR=${{ env.ONNXRUNTIME_ROOT }}
+        make -j$(nproc)
