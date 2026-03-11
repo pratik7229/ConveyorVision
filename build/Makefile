@@ -177,6 +177,30 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
+src/CameraProcessor.o: src/CameraProcessor.cpp.o
+.PHONY : src/CameraProcessor.o
+
+# target to build an object file
+src/CameraProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o
+.PHONY : src/CameraProcessor.cpp.o
+
+src/CameraProcessor.i: src/CameraProcessor.cpp.i
+.PHONY : src/CameraProcessor.i
+
+# target to preprocess a source file
+src/CameraProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.i
+.PHONY : src/CameraProcessor.cpp.i
+
+src/CameraProcessor.s: src/CameraProcessor.cpp.s
+.PHONY : src/CameraProcessor.s
+
+# target to generate assembly for a file
+src/CameraProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.s
+.PHONY : src/CameraProcessor.cpp.s
+
 src/EdgeDetector.o: src/EdgeDetector.cpp.o
 .PHONY : src/EdgeDetector.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
+	@echo "... src/CameraProcessor.o"
+	@echo "... src/CameraProcessor.i"
+	@echo "... src/CameraProcessor.s"
 	@echo "... src/EdgeDetector.o"
 	@echo "... src/EdgeDetector.i"
 	@echo "... src/EdgeDetector.s"

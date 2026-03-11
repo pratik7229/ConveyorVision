@@ -17,5 +17,6 @@ add_executable(Super_Vision
      src/GaussianBlur.cpp
      src/ThresholdProcessor.cpp
      src/MorphologicalFiltering.cpp
+     src/CameraProcessor.cpp
      )
 target_link_libraries(Super_Vision ${OpenCV_LIBS})

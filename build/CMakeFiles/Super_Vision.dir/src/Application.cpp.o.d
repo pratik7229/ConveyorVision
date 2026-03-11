@@ -923,4 +923,5 @@ CMakeFiles/Super_Vision.dir/src/Application.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.13.0_5/include/opencv4/opencv2/video.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_5/include/opencv4/opencv2/video/tracking.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_5/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/ImageProcessor.hpp
+  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/ImageProcessor.hpp \
+  /Users/pratik/Documents/Finalized\ Projects/ConveyorVision/include/CameraProcessor.hpp

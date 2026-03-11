@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Super_Vision.dir/main.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/Application.cpp.o"
   "CMakeFiles/Super_Vision.dir/src/Application.cpp.o.d"
+  "CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o"
+  "CMakeFiles/Super_Vision.dir/src/CameraProcessor.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o"
   "CMakeFiles/Super_Vision.dir/src/EdgeDetector.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o"

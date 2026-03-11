@@ -6,21 +6,30 @@ void Application::addProcessor(std::unique_ptr<ImageProcessor> processor)
 {
     processor_.push_back(std::move(processor));
 }
-void Application::run(const std::string& imagePath)
+void Application::run()
 {
-    if (!loader_.load(imagePath))
+    if(!camera_.open(0))
     {
-        std::cout << "Failed to load image\n";
+        std::cout<<"Failed to open Camera" << std::endl;
         return;
     }
 
-    cv::Mat image = loader_.getImage();
+    while(true){
+        if(!camera_.grabFrame()){
+            break;
+        }
+        cv::Mat frame = camera_.getFrame();
+        for(auto& processor : processor_){
+            processor->process(frame);
+        }
+        cv::imshow("ConveyorVision", frame);
 
-    for (auto& processor : processor_)
-    {
-        image = processor->process(image);
+        if(cv::waitKey(1) == 27){
+            break;
+        }
     }
-    cv::imshow("Result", image);
+    camera_.release();
 
-    cv::waitKey(0);
+
+    
 }
