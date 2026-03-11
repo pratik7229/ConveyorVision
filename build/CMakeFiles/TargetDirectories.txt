@@ -1,0 +1,3 @@
+/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles/Super_Vision.dir
+/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles/edit_cache.dir
+/Users/pratik/Documents/Finalized Projects/ConveyorVision/build/CMakeFiles/rebuild_cache.dir
