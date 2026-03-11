@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/Cellar/opencv/4.13.0_5/include/opencv4, -I"/Users/pratik/Documents/Finalized Projects/ConveyorVision/include" -isystem /opt/homebrew/Cellar/opencv/4.13.0_5/include/opencv4
+CXX_INCLUDES = -I/opt/homebrew/include -I"/Users/pratik/Documents/Finalized Projects/ConveyorVision/include" -isystem /opt/homebrew/Cellar/opencv/4.13.0_6/include/opencv4
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Super_Vision.dir/src/GaussianBlur.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/ImageLoader.cpp.o"
   "CMakeFiles/Super_Vision.dir/src/ImageLoader.cpp.o.d"
+  "CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o"
+  "CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o"
   "CMakeFiles/Super_Vision.dir/src/MorphologicalFiltering.cpp.o.d"
   "CMakeFiles/Super_Vision.dir/src/ThresholdProcessor.cpp.o"

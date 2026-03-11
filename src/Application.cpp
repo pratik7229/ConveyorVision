@@ -8,6 +8,7 @@ void Application::addProcessor(std::unique_ptr<ImageProcessor> processor)
 }
 void Application::run()
 {
+    inference_.loadModel("/Users/pratik/Documents/Finalized Projects/ConveyorVision/runs/yolov8m.onnx");
     if(!camera_.open(0))
     {
         std::cout<<"Failed to open Camera" << std::endl;
@@ -19,6 +20,7 @@ void Application::run()
             break;
         }
         cv::Mat frame = camera_.getFrame();
+        inference_.run(frame);
         for(auto& processor : processor_){
             processor->process(frame);
         }

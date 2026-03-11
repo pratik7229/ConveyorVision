@@ -273,6 +273,30 @@ src/ImageLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/ImageLoader.cpp.s
 .PHONY : src/ImageLoader.cpp.s
 
+src/InferenceEngine.o: src/InferenceEngine.cpp.o
+.PHONY : src/InferenceEngine.o
+
+# target to build an object file
+src/InferenceEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.o
+.PHONY : src/InferenceEngine.cpp.o
+
+src/InferenceEngine.i: src/InferenceEngine.cpp.i
+.PHONY : src/InferenceEngine.i
+
+# target to preprocess a source file
+src/InferenceEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.i
+.PHONY : src/InferenceEngine.cpp.i
+
+src/InferenceEngine.s: src/InferenceEngine.cpp.s
+.PHONY : src/InferenceEngine.s
+
+# target to generate assembly for a file
+src/InferenceEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Super_Vision.dir/build.make CMakeFiles/Super_Vision.dir/src/InferenceEngine.cpp.s
+.PHONY : src/InferenceEngine.cpp.s
+
 src/MorphologicalFiltering.o: src/MorphologicalFiltering.cpp.o
 .PHONY : src/MorphologicalFiltering.o
 
@@ -348,6 +372,9 @@ help:
 	@echo "... src/ImageLoader.o"
 	@echo "... src/ImageLoader.i"
 	@echo "... src/ImageLoader.s"
+	@echo "... src/InferenceEngine.o"
+	@echo "... src/InferenceEngine.i"
+	@echo "... src/InferenceEngine.s"
 	@echo "... src/MorphologicalFiltering.o"
 	@echo "... src/MorphologicalFiltering.i"
 	@echo "... src/MorphologicalFiltering.s"

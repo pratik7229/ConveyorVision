@@ -2,6 +2,7 @@
 #include "ImageLoader.hpp"
 #include "ImageProcessor.hpp"
 #include "CameraProcessor.hpp"
+#include "InferenceEngine.hpp"
 #include <memory>
 #include <string>
 
@@ -11,6 +12,7 @@ class Application{
     private:
         CameraProcessor camera_;
         ImageLoader loader_;
+        InferenceEngine inference_;
         vector<unique_ptr<ImageProcessor>> processor_;
     public:
         void addProcessor(unique_ptr<ImageProcessor> processor);
